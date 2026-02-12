@@ -6,7 +6,7 @@ import pydeck as pdk
 import numpy as np
 import os
 
-os.environ["MAPBOX_API_KEY"] = "pk.eyJ1IjoibGlqMDA4IiwiYSI6ImNtbGlrdDN4eDAzZDEzZHIyMHQyNmFoZDUifQ.U8_N-KQAoUC3zyYO_9VnlQ"
+os.environ["MAPBOX_API_KEY"] = "YOUR MAPBOX API TOKEN"
 
 st.set_page_config(page_title="SuDS Water-Level Digital Twin (PoC)", layout="wide")
 
