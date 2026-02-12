@@ -1,0 +1,37 @@
+{
+  "csv_path": "data/map16_sensor.csv",
+  "outputs_dir": "outputs",
+
+  "resample_minutes": 5,
+
+  "timestamp_candidates": ["date_id", "timestamp", "datetime", "time"],
+
+  "columns": {
+    "device_id": "device_id",
+    "water_level": "water_level",
+    "rssi": "rssi",
+    "voltage": "voltage",
+    "signal_status": "signal_status",
+    "measure": "measure"
+  },
+
+  "units": {
+    "water_level": "mm",
+    "rate_of_rise": "mm/hr"
+  },
+
+  "event_detection": {
+    "baseline_hours": 48,
+    "start_threshold_units": 30,
+    "end_threshold_units": 10,
+    "min_event_minutes": 30,
+    "min_gap_minutes": 20
+  },
+
+  "health": {
+    "stale_minutes": 60,
+    "flatline_minutes": 60,
+    "max_jump_units": 200,
+    "low_voltage_threshold": 3.3
+  }
+}

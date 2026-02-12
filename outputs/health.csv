@@ -1,0 +1,14 @@
+records,completeness,flatline,spikes,stale,latest_voltage,low_voltage,health_score,device_id
+6,1.0,False,1,False,3.58,False,95.0,MM-00976
+112077,1.0,False,195,False,3.64,False,75.0,MM-01089
+111437,1.0,False,120,False,3.59,False,75.0,MM-01105
+27107,1.0,True,2537,False,3.65,False,50.0,MM-01298
+105754,1.0,False,1655,False,3.54,False,75.0,MM-01342
+111369,1.0,True,1283,False,3.62,False,50.0,MM-01662
+17016,1.0,False,3,False,3.58,False,85.0,MMR-00271
+28402,1.0,False,706,False,3.55,False,75.0,MMR-00289
+9125,1.0,False,0,False,3.57,False,100.0,MMR-00293
+53486,1.0,False,2862,False,3.56,False,75.0,MMR-00356
+49455,1.0,False,431,False,3.6,False,75.0,MMR-00421
+5042,1.0,False,57,False,3.61,False,75.0,SP - 00266
+8159,1.0,False,16,False,3.62,False,75.0,SP - 00271
